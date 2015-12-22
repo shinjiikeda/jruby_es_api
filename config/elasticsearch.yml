@@ -1,0 +1,13 @@
+
+# <http://elasticsearch.org/guide/en/elasticsearch/reference/current/setup-configuration.html>
+
+cluster.name: ec2cluster1
+
+node.name: client
+
+node.master: false
+node.data: false
+
+discovery.zen.ping.multicast.enabled: true
+#discovery.zen.ping.unicast.hosts: ["localhost:9300"]
+
